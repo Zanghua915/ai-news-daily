@@ -1,0 +1,54 @@
+===== Mon Jun  8 09:14:07 CST 2026 开始搜索 AI 资讯 =====
+两篇文章笔记均已成功创建。现在向用户汇报完整结果。
+
+---
+
+## 搜索完成报告
+
+今天（2026 年 6 月 8 日）已全面搜索五位 AI 领袖最近 3 天（6 月 5-8 日）的新采访和文章。
+
+---
+
+### 已创建笔记（2 篇）
+
+**Anthropic - Dario Amodei**
+
+| 文件 | 来源 | 日期 | 主题 |
+|------|------|------|------|
+| `2026.6.8-Anthropic-Dario文化制胜论.md` | Fortune | 6 月 7 日 | 公司文化管理哲学、IPO 背景 |
+| `2026.6.8-Anthropic-Dario威权投资者争议.md` | The Intercept | 6 月 6 日 | 阿联酋/MGX 投资矛盾，引用 Dario 回应 |
+
+均保存在：`AI资讯/文章/`
+
+---
+
+### 未找到近 3 天新内容的人物
+
+| 人物 | 最近一次有效内容 | 日期 | 原因 |
+|------|----------------|------|------|
+| **Daniela Amodei** | TechCrunch 专访（IPO 回应 AI 回报质疑） | 6 月 4 日 | 超出 3 天窗口 |
+| **Sam Altman** | CNBC 视频专访（Stargate、数据中心、IPO） | 6 月 1 日 | 超出 3 天窗口 |
+| **Demis Hassabis** | Decrypt 文章（Stanford AGI 2030 预测） | 6 月 4 日 | 超出 3 天窗口 |
+| **Sundar Pichai** | Google I/O 2026 开幕演讲 | 5 月底 | 超出 3 天窗口 |
+
+---
+
+### 说明
+
+本次 6 月 5-8 日窗口内，仅有 Anthropic 相关内容符合条件——均与 Anthropic 保密申报 IPO 这一重大事件有关。其他领袖的最新公开发言集中在 6 月 1-4 日，技术上刚好超出 3 天范围。如果你希望将窗口放宽至"最近 7 天"，可以补充创建 Daniela Amodei（TechCrunch）、Sam Altman（CNBC）、Demis Hassabis（Decrypt/Stanford）的笔记。
+
+Sources:
+- [Fortune - Dario Amodei on company culture](https://fortune.com/article/anthropic-ceo-dario-amodei-vision-quest-company-culture-corpo-speak-ai-race/)
+- [The Intercept - Anthropic authoritarian investors](https://theintercept.com/2026/06/06/anthropic-ai-investor-abu-dhabi-china/)
+- [TechCrunch - Daniela Amodei on AI returns](https://techcrunch.com/2026/06/04/ahead-of-its-ipo-anthropics-daniela-amodei-shrugs-off-doubts-about-ais-returns/)
+- [CNBC - Sam Altman full interview](https://www.cnbc.com/video/2026/06/01/watch-cnbcs-full-interview-with-openai-ceo-sam-altman.html)
+- [Decrypt - Demis Hassabis AGI coming fast](https://decrypt.co/370080/google-deepmind-ceo-agi-coming)
+===== Mon Jun  8 09:20:14 CST 2026 搜索完成 =====
+Transfer starting: 0 files
+
+sent 29 bytes  received 20 bytes  490000 bytes/sec
+total size is 0  speedup is 0.00
+Transfer starting: 0 files
+
+sent 29 bytes  received 20 bytes  490000 bytes/sec
+total size is 0  speedup is 0.00
