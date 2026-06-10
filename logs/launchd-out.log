@@ -199,3 +199,43 @@ Transfer starting: 0 files
 
 sent 29 bytes  received 20 bytes  490000 bytes/sec
 total size is 0  speedup is 0.00
+[main ff9ac98] auto: 2026.6.9 AI 资讯更新
+ 4 files changed, 96 insertions(+)
+ create mode 100644 logs/.done-2026-06-08
+ create mode 100644 logs/2026-06-09.log
+===== Tue Jun  9 09:17:06 CST 2026 全部完成 =====
+===== Wed Jun 10 09:05:28 CST 2026 开始搜索 AI 资讯 =====
+三篇笔记全部成功写入，时间戳 09:26–09:27，均为今日新建。
+
+---
+
+## 本次搜索结果汇总
+
+**时间范围**：2026 年 6 月 7–10 日（最近 3 天）
+
+### 新建笔记（3 篇文章）
+
+| 文件 | 人物 | 日期 | 来源 |
+|---|---|---|---|
+| `2026.6.10-Anthropic-Daniela Amodei为IPO融资辩护营收达470亿.md` | Daniela Amodei | 6月9日 | AI Insider |
+| `2026.6.10-OpenAI-Sam Altman反对AI发布前强制审批.md` | Sam Altman | 6月9日 | Let's Data Science |
+| `2026.6.10-Google DeepMind-Hassabis警告AGI或4年内到来.md` | Demis Hassabis | 6月8日 | NewsBytesApp |
+
+### 跳过（已有同主题笔记）
+
+- **Dario Amodei**（6月7日 Fortune）→ 已有 `2026.6.8-Anthropic-Dario文化制胜论.md`
+- **Sam Altman 第三阶段宣言**（6月8日）→ 已有 `2026.6.8-OpenAI-Sam Altman发布OpenAI第三阶段计划宣言.md`
+- **Dario Amodei 威权投资者争议**（6月6日）→ 已有 `2026.6.8-Anthropic-Dario威权投资者争议.md`
+
+### Sundar Pichai / Daniela Amodei 其他
+- Sundar Pichai 近 3 天无实质新采访（6月9日 TechRadar 仅转载了 2018 年旧语录）
+- Daniela Amodei 与 Dario 上 Oprah（6月6日）早于 3 天窗口，已跳过
+===== Wed Jun 10 09:27:26 CST 2026 搜索完成 =====
+Transfer starting: 0 files
+
+sent 29 bytes  received 20 bytes  490000 bytes/sec
+total size is 0  speedup is 0.00
+Transfer starting: 0 files
+
+sent 29 bytes  received 20 bytes  490000 bytes/sec
+total size is 0  speedup is 0.00
