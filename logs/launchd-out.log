@@ -285,3 +285,49 @@ Transfer starting: 0 files
 
 sent 29 bytes  received 20 bytes  490000 bytes/sec
 total size is 0  speedup is 0.00
+[main 0ba9189] auto: 2026.6.15 AI 资讯更新
+ 5 files changed, 92 insertions(+)
+ create mode 100644 logs/.done-2026-06-10
+ create mode 100644 logs/2026-06-11.log
+ create mode 100644 logs/2026-06-15.log
+===== Mon Jun 15 09:23:32 CST 2026 全部完成 =====
+===== Tue Jun 16 09:20:09 CST 2026 开始搜索 AI 资讯 =====
+搜索全面完成。G7峰会仍在进行中（6月15-17日），暂无具体发言报道。
+
+---
+
+## 搜索结果汇总
+
+**最近3天（6月14-16日）**的搜索结果显示，三位AI领袖的主要动态集中在两件大事，两件均已有笔记记录：
+
+### 已有笔记（无需重复）
+| 日期 | 笔记 |
+|------|------|
+| 6月15日 | `2026.6.15-多公司-AI三巨头聚首G7峰会.md` |
+| 6月15日 | `2026.6.15-Google-Pichai斯坦福毕业典礼演讲.md` |
+
+### 新增笔记（本次创建）
+
+**`2026.6.13-Anthropic-Dario Amodei警告Mythos威胁安全美政府强制关停模型.md`**
+
+这是本周最重大的AI政策事件：Anthropic的旗舰模型 Fable 5 / Mythos 5 被美国商务部以国家安全为由强制下线。关键细节：
+- **导火索**：Amazon CEO 贾西向白宫警告发现可绕过安全护栏的越狱方法
+- **政府行动**：商务部长卢特尼克给 Dario Amodei 发信，仅给90分钟下线时间
+- **Amodei的悖论处境**：他本人刚发文警告 Mythos 有"非常真实的风险"，但事发后却坚持认为漏洞"范围狭窄"，拒绝政府要求
+- **Anthropic回应**：为避免法律复杂性（连公司内部外籍员工都不能访问），被迫全面关停两款模型
+
+### 本次未找到新内容的人物
+- **Sam Altman**：6月14-16日无新采访，目前正在G7峰会参会，后续可能有报道
+- **Demis Hassabis**：同上，G7峰会中，最近采访集中在5月下旬
+- **Daniela Amodei**：最近内容为6月10-12日（Inquirer文章、IPO辩护采访），超出3天窗口
+
+G7峰会（6月15-17日）今明两天还会有更多报道出炉，建议明天再搜索一次峰会结果。
+===== Tue Jun 16 09:28:31 CST 2026 搜索完成 =====
+Transfer starting: 0 files
+
+sent 29 bytes  received 20 bytes  490000 bytes/sec
+total size is 0  speedup is 0.00
+Transfer starting: 0 files
+
+sent 29 bytes  received 20 bytes  490000 bytes/sec
+total size is 0  speedup is 0.00
