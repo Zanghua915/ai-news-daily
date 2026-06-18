@@ -372,3 +372,55 @@ Transfer starting: 0 files
 
 sent 29 bytes  received 20 bytes  490000 bytes/sec
 total size is 0  speedup is 0.00
+[main fec9683] auto: 2026.6.17 AI 资讯更新
+ 4 files changed, 82 insertions(+)
+ create mode 100644 logs/.done-2026-06-16
+ create mode 100644 logs/2026-06-17.log
+===== Wed Jun 17 09:25:46 CST 2026 全部完成 =====
+===== Thu Jun 18 09:25:37 CST 2026 开始搜索 AI 资讯 =====
+搜索已完成。这 3 天内符合条件的内容集中在 6 月 17 日，共创建了 **2 个文件**：
+
+---
+
+## 本次搜索结果摘要
+
+### 已创建的笔记
+
+**1. 文章笔记** → `AI资讯/文章/2026.6.17-多公司-G7峰会AI三巨头发言全记录.md`
+
+G7 峰会（6 月 15-17 日，法国埃维昂莱班）在 6 月 17 日举行工作午餐，Altman、Amodei、Hassabis 首次同台与各国领导人共商 AI 治理：
+- **Amodei**：敦促各国"抵制分裂的诱惑"，联合民主国家封锁中国获取先进芯片与模型，背景是美政府刚刚封禁 Anthropic 的 Fable 模型
+- **Altman**：提议建立美国主导的国际论坛制定全球 AI 标准，金句："制定规则的应该是自由世界的公民，而不是我们这样的 AI 公司"
+- **Hassabis**：倡导"科学外交"，寻求 EU AI 法案合规以支持 Gemini 3.5 Pro 欧洲上市
+
+**2. 视频笔记** → `AI资讯/视频文件/2026.6.17-Anthropic-Dario Amodei接受Bloomberg The Circuit深度专访.md`
+
+Bloomberg《The Circuit》Emily Chang 对 Dario Amodei 的深度视频采访，同日发布，话题包括：为何离开 OpenAI（信任问题）、AI 导致文明崩溃概率 10-25%、Claude 是否参与伊朗学校袭击事件、Fable 被政府封禁后的回应，以及 Anthropic 独特的管理架构。
+
+---
+
+### 未找到新内容的人物（最近 3 天）
+
+| 人物 | 说明 |
+|---|---|
+| Daniela Amodei | 最新采访在 6 月 12 日（Bloomberg），不在窗口内 |
+| Sam Altman | G7 发言已并入多人文章；独立专访最新为 6 月 1 日 CNBC |
+| Sundar Pichai | 斯坦福毕业典礼演讲在 6 月 14 日，差一天 |
+| Demis Hassabis | G7 发言已并入多人文章；专访内容集中在 5 月 Google I/O |
+
+Sources:
+- [CNBC：Anthropic与Google DeepMind呼吁建立美国主导AI联盟](https://www.cnbc.com/2026/06/17/anthropic-amodei-google-hassabis-us-ai-coalition-g7.html)
+- [Semafor：AI CEO们在G7就全球标准展开讨论](https://www.semafor.com/article/06/17/2026/ai-ceos-talk-global-standards-at-g7)
+- [Yahoo/FT：Amodei敦促G7抵制AI分裂](https://www.yahoo.com/news/politics/articles/anthropic-dario-amodei-urges-g7-183457656.html)
+- [Fortune：G7迎来特殊午餐嘉宾](https://fortune.com/2026/06/17/g7-ai-sovereignty-europe-anthropic-blackout-trump/)
+- [Bloomberg：深入了解Dario Amodei的思想世界](https://www.bloomberg.com/news/videos/2026-06-17/inside-the-mind-of-anthropic-ceo-dario-amodei-video)
+- [YouTube：The Circuit完整版采访](https://www.youtube.com/watch?v=x2VHFgyawPE)
+===== Thu Jun 18 09:33:12 CST 2026 搜索完成 =====
+Transfer starting: 0 files
+
+sent 29 bytes  received 20 bytes  490000 bytes/sec
+total size is 0  speedup is 0.00
+Transfer starting: 0 files
+
+sent 29 bytes  received 20 bytes  490000 bytes/sec
+total size is 0  speedup is 0.00
