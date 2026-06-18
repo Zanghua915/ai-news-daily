@@ -23,23 +23,37 @@ VAULT_VIDEO="$HOME/Library/Mobile Documents/iCloud~md~obsidian/Documents/ZangHuA
 VAULT_ARTICLE="$HOME/Library/Mobile Documents/iCloud~md~obsidian/Documents/ZangHuA/ZangHuA/AI资讯/文章"
 
 TODAY=$(date +%Y.%-m.%-d)
+YEAR=$(date +%Y)
 
 PROMPT="你是麦田的 AI 资讯助理。请完成以下任务：
 
 ## 任务
-搜索 AI 三巨头（Anthropic、OpenAI、Google DeepMind）负责人最近 3 天内的最新采访视频和文章。
+搜索下面这些 AI 公司核心负责人 / 关键人物最近 3 天内的最新采访视频和文章。
 
 重点关注这些人物：
 - Anthropic：Dario Amodei、Daniela Amodei
-- OpenAI：Sam Altman
-- Google DeepMind：Demis Hassabis、Sundar Pichai
+- OpenAI：Sam Altman、Greg Brockman
+- Google / DeepMind：Demis Hassabis、Sundar Pichai
+- NVIDIA：Jensen Huang（黄仁勋）
+- Meta：Mark Zuckerberg、Yann LeCun
+- xAI：Elon Musk
+- Microsoft AI：Mustafa Suleyman
+- Thinking Machines Lab：Mira Murati
+- SSI（Safe Superintelligence）：Ilya Sutskever
 
 ## 搜索方法
-用 WebSearch 工具搜索以下关键词（英文搜索效果更好）：
-- \"Dario Amodei interview 2026\"
-- \"Sam Altman interview 2026\"
-- \"Demis Hassabis interview 2026\"
-- 以及类似变体，加上 video / podcast / talk 等关键词
+用 WebSearch 工具搜索。英文搜索效果更好，关键词用「人名 + interview/podcast/talk + ${YEAR}」的组合，例如：
+- \"Dario Amodei interview ${YEAR}\"
+- \"Sam Altman podcast ${YEAR}\"
+- \"Jensen Huang AI interview ${YEAR}\"
+- \"Mira Murati interview ${YEAR}\"
+- 上面列出的每个人物都搜一搜，并加上 video / podcast / talk / keynote 等变体。
+
+### 优先关注的优质来源（这些平台经常出高质量的 AI 大佬深度访谈）
+- 播客类：Lex Fridman、Dwarkesh Patel、Decoder with Nilay Patel、Hard Fork、No Priors、a16z Podcast、Big Technology、20VC、All-In、BG2 Pod
+- 媒体类：The Verge、TechCrunch、Wired、Bloomberg、The Information、Time、Fortune、Financial Times、纽约时报
+- 视频 / 大会：YouTube，以及各家发布会和大会主题演讲（如 NVIDIA GTC、Google I/O、OpenAI DevDay）
+- 搜索时可以把来源名也当关键词，比如 \"Demis Hassabis Lex Fridman\"、\"Sam Altman The Verge\"。
 
 ## 输出要求
 对每条有价值的新内容，在对应目录创建一个 Markdown 笔记：
@@ -98,13 +112,14 @@ PROMPT="你是麦田的 AI 资讯助理。请完成以下任务：
 \`\`\`
 
 ## 重要规则
-1. 只收录最近 3 天内发布的内容，跳过更早的。
-2. 写入前先检查目录里是否已有同主题的笔记，避免重复。
-3. 如果搜不到新内容，就不创建文件，直接说明即可。
-4. 每条笔记的链接必须是真实可访问的 URL，不要编造。
-5. 文章笔记必须先用 WebFetch 读取原文，再写总结；视频笔记列核心话题即可（无法抓取视频内容）。
-6. 链接格式必须是 Markdown 可点击格式：[文字](URL)，不要写裸 URL。
-7. 用简体中文写笔记。"
+1. **内容必须跟 AI 实质相关**：只收录主要在谈人工智能、谈所在公司的 AI 产品/战略、或谈 AI 对行业和社会影响的内容。如果只是这个人物露了个面、但讲的东西跟 AI 关系不大（比如普通的大学毕业典礼演讲、跟 AI 无关的商业或个人话题），一律不要收录。
+2. 只收录最近 3 天内发布的内容，跳过更早的。
+3. 写入前先检查目录里是否已有同主题的笔记，避免重复。
+4. 如果搜不到新内容，就不创建文件，直接说明即可。
+5. 每条笔记的链接必须是真实可访问的 URL，不要编造。
+6. 文章笔记必须先用 WebFetch 读取原文，再写总结；视频笔记列核心话题即可（无法抓取视频内容）。
+7. 链接格式必须是 Markdown 可点击格式：[文字](URL)，不要写裸 URL。
+8. 用简体中文写笔记。"
 
 /Applications/cmux.app/Contents/Resources/bin/claude --dangerously-skip-permissions -p "$PROMPT" --model claude-sonnet-4-6 2>&1
 
