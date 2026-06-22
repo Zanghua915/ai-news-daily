@@ -1,0 +1,10 @@
+Warning: no stdin data received in 3s, proceeding without it. If piping from a slow command, redirect stdin explicitly: < /dev/null to skip, or wait longer.
+两篇都建好了，总结如下：
+
+**已建档（2 篇）**
+1. `2026.6.18-Google-Hassabis谈奇点山脚与AGI转型.md` — GSB 官方整理的斯坦福访谈，重点在"奇点山脚"含义的明确解读、AGI 的经济量级、竞争格局与监管框架。
+2. `2026.6.18-Meta-LeCun称xAI是失败品并警告AI泡沫.md` — LeCun 批评 xAI 人才困境与算力变现逻辑，并警告 AI 行业单位经济不可持续的泡沫风险。
+
+**关于 Hassabis 的去重说明**
+- `2026.5.20` 那篇是 Google I/O 的 Semafor 采访，是不同场合，**不重复**。
+- 但 `2026.6.1-GoogleDeepMind-Hassabis斯坦福演讲警告AI物种级转折点.md` 和这次是同一场斯坦福活动，只是 Stanford Daily（5 月 29 日）和 GSB Insights（6 月 18 日官方发布）角度不同。GSB 这篇有实质新增内容（奇点概念的具体解读、经济转型框架、零和博弈论述），所以选择建档，而非跳过。

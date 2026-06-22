@@ -17,6 +17,13 @@ if [[ -f "$DONE_MARKER" ]]; then
 fi
 
 exec > >(tee -a "$LOG_FILE") 2>&1
+
+# 失败通知：脚本若异常退出（如 claude 连不上 API、代理没开），弹一条 macOS 通知，
+# 这样跑挂了当场就能看见，不用等几天后才发现。RUN_OK 在正常收尾处置 1。
+RUN_OK=0
+notify() { /usr/bin/osascript -e "display notification \"$2\" with title \"$1\"" >/dev/null 2>&1 || true; }
+trap '[[ $RUN_OK -eq 1 ]] || notify "AI资讯 ❌ 抓取失败" "请检查代理/网络，手动补跑: bash ~/ai-news-daily/fetch-ai-news.sh"' EXIT
+
 echo "===== $(date) 开始搜索 AI 资讯 ====="
 
 VAULT_VIDEO="$HOME/Library/Mobile Documents/iCloud~md~obsidian/Documents/ZangHuA/ZangHuA/AI资讯/视频文件"
@@ -140,3 +147,7 @@ echo "===== $(date) 全部完成 ====="
 
 # 打上当天完成标记，防止开机/登录时重复补跑
 touch "$DONE_MARKER"
+
+# 标记本次运行成功（让 EXIT trap 不弹失败通知），并弹一条成功通知
+RUN_OK=1
+notify "AI资讯 ✅ 已更新" "今日抓取完成，已备份到 GitHub"
