@@ -1,0 +1,74 @@
+===== Tue Jun 23 09:37:49 CST 2026 开始搜索 AI 资讯 =====
+API Error: Unable to connect to API (ECONNRESET)
+===== 2026年 6月23日 星期二 09时49分04秒 CST 开始搜索 AI 资讯 =====
+经过全面搜索，现在可以给出结论了。
+
+---
+
+## 搜索结果总结
+
+在对所有9家公司、11位关键人物进行系统搜索后，**最近3天（6月21-23日）内，没有发现符合条件的新内容需要创建笔记**。
+
+具体情况如下：
+
+**已确认在3天内发布、但已被现有笔记覆盖的内容：**
+- **Jensen Huang (NVIDIA)**：AP专访文章于6月22日在各大媒体发布（"社会需要建立AI新规范"），但这次采访发生于6月16日的德克萨斯州 Coherent 工厂典礼，内容与现有笔记 `2026.6.16-NVIDIA-Jensen Huang呼吁社会建立AI新规范.md` 完全一致，已覆盖，不重复记录。
+
+**其他人物最近内容均在3天窗口之外：**
+
+| 人物 | 最近内容日期 | 备注 |
+|------|------------|------|
+| Dario Amodei | 6月13日 | 已有笔记，未见3天内新内容 |
+| Demis Hassabis | 6月18日 | 已有笔记（斯坦福演讲） |
+| Yann LeCun | 6月18日 | 已有笔记（VivaTech/CNBC） |
+| Greg Brockman | 6月19日 | 已有笔记 |
+| Sam Altman | 6月1日 | 6月21-23日无新采访 |
+| Daniela Amodei | 6月10日 | 无新内容 |
+| Sundar Pichai | 5月22日 | 无新内容 |
+| Mira Murati | 6月4日 | 无新内容 |
+| Mark Zuckerberg | 6月15-16日 | 无AI专访 |
+| Mustafa Suleyman | 6月2日 | 无新内容 |
+| Ilya Sutskever | 无近期内容 | 无新内容 |
+| Elon Musk / xAI | 无近期采访 | — |
+
+**结论**：现有笔记库已覆盖至6月19日，最近3天内各位关键人物均未有新的 AI 采访/文章发布，本次无需创建新笔记。建议明天或后天再次运行，捕捉可能滞后发布的内容。
+===== 2026年 6月23日 星期二 09时55分23秒 CST 搜索完成 =====
+Transfer starting: 7 files
+Skip existing '2026.5.19-Anthropic-Dario与Daniela Amodei上Oprah播客谈对抗五角大楼.md'
+Skip existing '2026.5.27-Google-Demis Hassabis谈AGI将在2030年实现.md'
+Skip existing '2026.5.29-Google-Sundar Pichai接受Decoder播客采访谈AI重塑搜索.md'
+Skip existing '2026.5.6-Anthropic-Dario Amodei与Jamie Dimon对谈AI浪潮.md'
+Skip existing '2026.6.1-OpenAI-Sam Altman接受CNBC专访谈Stargate与AI未来.md'
+Skip existing '2026.6.17-Anthropic-Dario Amodei接受Bloomberg The Circuit深度专访.md'
+
+sent 644 bytes  received 20 bytes  316190 bytes/sec
+total size is 7311  speedup is 11.01
+Transfer starting: 26 files
+Skip existing '2026.5.20-Google-Hassabis称人类正站在奇点的山脚.md'
+Skip existing '2026.5.26-Google-Demis Hassabis称我们已接近AGI.md'
+Skip existing '2026.5.26-OpenAI-Sam Altman称AI不会导致就业末日.md'
+Skip existing '2026.5.29-Google-Demis Hassabis谈Isomorphic Labs融资21亿美元要解决所有疾病.md'
+Skip existing '2026.5.5-Anthropic-Dario Amodei警告AI网络安全危险窗口期.md'
+Skip existing '2026.6.1-Anthropic-Daniela Amodei谈离开OpenAI创立Anthropic背后的心路历程.md'
+Skip existing '2026.6.1-Anthropic-Dario Amodei谈Anthropic机密S-1上市申请与营收超越OpenAI.md'
+Skip existing '2026.6.1-Google-Hassabis批评科技裁员热潮邀请被裁工程师加入DeepMind.md'
+Skip existing '2026.6.1-GoogleDeepMind-Hassabis斯坦福演讲警告AI物种级转折点.md'
+Skip existing '2026.6.10-Anthropic-Daniela Amodei为IPO融资辩护营收达470亿.md'
+Skip existing '2026.6.10-Google DeepMind-Hassabis警告AGI或4年内到来.md'
+Skip existing '2026.6.10-OpenAI-Sam Altman反对AI发布前强制审批.md'
+Skip existing '2026.6.13-Anthropic-Dario Amodei警告Mythos威胁安全美政府强制关停模型.md'
+Skip existing '2026.6.15-多公司-AI三巨头聚首G7峰会.md'
+Skip existing '2026.6.16-NVIDIA-Jensen Huang呼吁社会建立AI新规范.md'
+Skip existing '2026.6.17-多公司-G7峰会AI三巨头发言全记录.md'
+Skip existing '2026.6.18-Google-Hassabis谈奇点山脚与AGI转型.md'
+Skip existing '2026.6.18-Meta-LeCun称xAI是失败品并警告AI泡沫.md'
+Skip existing '2026.6.19-OpenAI-Greg Brockman谈计算力制胜.md'
+Skip existing '2026.6.2-Anthropic-Daniela Amodei在Snowflake峰会谈信任是AI加速器.md'
+Skip existing '2026.6.3-OpenAI-Sam Altman访问白宫国会就AI监管政策发声.md'
+Skip existing '2026.6.7-OpenAI-Sam Altman谈日常作息与为人父后的新优先级.md'
+Skip existing '2026.6.8-Anthropic-Dario威权投资者争议.md'
+Skip existing '2026.6.8-Anthropic-Dario文化制胜论.md'
+Skip existing '2026.6.8-OpenAI-Sam Altman发布OpenAI第三阶段计划宣言.md'
+
+sent 2356 bytes  received 20 bytes  2160000 bytes/sec
+total size is 64687  speedup is 27.23
