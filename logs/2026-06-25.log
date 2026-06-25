@@ -1,0 +1,87 @@
+===== Thu Jun 25 09:13:16 CST 2026 开始搜索 AI 资讯 =====
+/Users/zanghua/ai-news-daily/fetch-ai-news.sh: line 131: /Applications/cmux.app/Contents/Resources/bin/claude: No such file or directory
+===== Thu Jun 25 13:03:44 CST 2026 开始搜索 AI 资讯 =====
+/Users/zanghua/ai-news-daily/fetch-ai-news.sh: line 131: /Applications/cmux.app/Contents/Resources/bin/claude: No such file or directory
+===== Thu Jun 25 17:08:42 CST 2026 开始搜索 AI 资讯 =====
+两个文件写入成功。以下是本次搜索的完整汇报：
+
+---
+
+## 搜索结果汇总
+
+**今天（6 月 25 日）共找到 2 条最近 3 天内的新内容，已写入笔记。**
+
+---
+
+### 新增笔记
+
+**1. 文章** — `2026.6.25-Google-Hassabis谈AI艺术与科学的内在联系.md`
+- Demis Hassabis 在戛纳国际创意节 Semafor 专访（6 月 24 日）
+- 核心观点："想象力是一种模拟"，AI 的艺术创作能力与科学研究能力来自同一底层技术，不可分割；谷歌同期向 A24 投资 7500 万美元落地 AI 创意应用
+
+**2. 视频** — `2026.6.25-OpenAI-Brockman发布首款自研芯片Jalapeño.md`
+- Greg Brockman × Broadcom CEO Hock Tan 接受 CNBC Squawk on the Street 采访（6 月 24 日）
+- OpenAI 首款自研 AI 推理芯片 Jalapeño 正式发布，9 个月完成设计，目标降低推理成本 50%，年底开始部署
+
+---
+
+### 已有笔记，跳过的内容
+
+| 内容 | 原因 |
+|------|------|
+| Hassabis Semafor 6/23（Google 人才竞争领先） | 文件 `2026.6.24-GoogleDeepMind-Hassabis...` 已存在 |
+| Jensen Huang AP 专访（AI 社会新规范） | 文件 `2026.6.16-NVIDIA-Jensen Huang...` 已存在，原文发布日期 6 月 16 日，超出 3 天窗口 |
+| Greg Brockman Big Tech Summit（计算力制胜） | 文件 `2026.6.19-OpenAI-Greg Brockman...` 已存在 |
+| Mark Zuckerberg 6/24（AI 眼镜） | 文件 `2026.6.24-Meta-Zuckerberg...` 已存在 |
+
+---
+
+### 近 3 天无新采访的人物
+
+Dario Amodei、Daniela Amodei、Sam Altman、Sundar Pichai、Elon Musk、Mira Murati、Ilya Sutskever、Mustafa Suleyman、Yann LeCun 在 6 月 23～25 日均未找到符合条件的新内容（Ilya Sutskever 有分析文章但无采访，其余人物最近一次公开采访均在 3 天窗口之外）。
+===== Thu Jun 25 17:12:37 CST 2026 搜索完成 =====
+Transfer starting: 8 files
+Skip existing '2026.5.19-Anthropic-Dario与Daniela Amodei上Oprah播客谈对抗五角大楼.md'
+Skip existing '2026.5.27-Google-Demis Hassabis谈AGI将在2030年实现.md'
+Skip existing '2026.5.29-Google-Sundar Pichai接受Decoder播客采访谈AI重塑搜索.md'
+Skip existing '2026.5.6-Anthropic-Dario Amodei与Jamie Dimon对谈AI浪潮.md'
+Skip existing '2026.6.1-OpenAI-Sam Altman接受CNBC专访谈Stargate与AI未来.md'
+Skip existing '2026.6.17-Anthropic-Dario Amodei接受Bloomberg The Circuit深度专访.md'
+./
+2026.6.25-OpenAI-Brockman\#345\#217\#221\#345\#270\#203\#351\#246\#226\#346\#254\#276\#350\#207\#252\#347\#240\#224\#350\#212\#257\#347\#211\#207Jalapeño.md
+
+sent 2167 bytes  received 48 bytes  2013636 bytes/sec
+total size is 8696  speedup is 3.93
+Transfer starting: 29 files
+Skip existing '2026.5.20-Google-Hassabis称人类正站在奇点的山脚.md'
+Skip existing '2026.5.26-Google-Demis Hassabis称我们已接近AGI.md'
+Skip existing '2026.5.26-OpenAI-Sam Altman称AI不会导致就业末日.md'
+Skip existing '2026.5.29-Google-Demis Hassabis谈Isomorphic Labs融资21亿美元要解决所有疾病.md'
+Skip existing '2026.5.5-Anthropic-Dario Amodei警告AI网络安全危险窗口期.md'
+Skip existing '2026.6.1-Anthropic-Daniela Amodei谈离开OpenAI创立Anthropic背后的心路历程.md'
+Skip existing '2026.6.1-Anthropic-Dario Amodei谈Anthropic机密S-1上市申请与营收超越OpenAI.md'
+Skip existing '2026.6.1-Google-Hassabis批评科技裁员热潮邀请被裁工程师加入DeepMind.md'
+Skip existing '2026.6.1-GoogleDeepMind-Hassabis斯坦福演讲警告AI物种级转折点.md'
+Skip existing '2026.6.10-Anthropic-Daniela Amodei为IPO融资辩护营收达470亿.md'
+Skip existing '2026.6.10-Google DeepMind-Hassabis警告AGI或4年内到来.md'
+Skip existing '2026.6.10-OpenAI-Sam Altman反对AI发布前强制审批.md'
+Skip existing '2026.6.13-Anthropic-Dario Amodei警告Mythos威胁安全美政府强制关停模型.md'
+Skip existing '2026.6.15-多公司-AI三巨头聚首G7峰会.md'
+Skip existing '2026.6.16-NVIDIA-Jensen Huang呼吁社会建立AI新规范.md'
+Skip existing '2026.6.17-多公司-G7峰会AI三巨头发言全记录.md'
+Skip existing '2026.6.18-Google-Hassabis谈奇点山脚与AGI转型.md'
+Skip existing '2026.6.18-Meta-LeCun称xAI是失败品并警告AI泡沫.md'
+Skip existing '2026.6.19-OpenAI-Greg Brockman谈计算力制胜.md'
+Skip existing '2026.6.2-Anthropic-Daniela Amodei在Snowflake峰会谈信任是AI加速器.md'
+Skip existing '2026.6.3-OpenAI-Sam Altman访问白宫国会就AI监管政策发声.md'
+Skip existing '2026.6.7-OpenAI-Sam Altman谈日常作息与为人父后的新优先级.md'
+Skip existing '2026.6.8-Anthropic-Dario威权投资者争议.md'
+Skip existing '2026.6.8-Anthropic-Dario文化制胜论.md'
+Skip existing '2026.6.8-OpenAI-Sam Altman发布OpenAI第三阶段计划宣言.md'
+./
+2026.6.24-GoogleDeepMind-Hassabis\#357\#274\#232Google\#344\#273\#215\#345\#234\#250AI\#344\#272\#272\#346\#211\#215\#347\#253\#236\#344\#272\#211\#344\#270\#255\#351\#242\#206\#345\#205\#210.md
+2026.6.24-Meta-Zuckerberg\#357\#274\#232AI\#347\#234\#274\#351\#225\#234\#346\#230\#257\#344\#272\#272\#344\#272\#272\#350\#247\#246\#350\#276\#276"\#344\#270\#252\#344\#272\#272\#350\#266\#205\#347\#272\#247\#346\#231\#272\#350\#203\#275"\#347\#232\#204\#345\#205\#245\#345\#217\#243.md
+2026.6.25-Google-Hassabis\#350\#260\#210AI\#350\#211\#272\#346\#234\#257\#344\#270\#216\#347\#247\#221\#345\#255\#246\#347\#232\#204\#345\#206\#205\#345\#234\#250\#350\#201\#224\#347\#263\#273.md
+
+sent 11226 bytes  received 92 bytes  10289090 bytes/sec
+total size is 73118  speedup is 6.46

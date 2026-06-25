@@ -485,3 +485,12 @@ Transfer starting: 0 files
 
 sent 29 bytes  received 20 bytes  490000 bytes/sec
 total size is 0  speedup is 0.00
+[main 359bdb4] auto: 2026.6.24 AI 资讯更新
+ 5 files changed, 115 insertions(+)
+ create mode 100644 logs/.done-2026-06-23
+ create mode 100644 logs/2026-06-24.log
+===== Wed Jun 24 09:21:20 CST 2026 全部完成 =====
+===== Thu Jun 25 09:13:16 CST 2026 开始搜索 AI 资讯 =====
+/Users/zanghua/ai-news-daily/fetch-ai-news.sh: line 131: /Applications/cmux.app/Contents/Resources/bin/claude: No such file or directory
+===== Thu Jun 25 13:03:44 CST 2026 开始搜索 AI 资讯 =====
+/Users/zanghua/ai-news-daily/fetch-ai-news.sh: line 131: /Applications/cmux.app/Contents/Resources/bin/claude: No such file or directory

@@ -128,7 +128,7 @@ PROMPT="你是麦田的 AI 资讯助理。请完成以下任务：
 7. 链接格式必须是 Markdown 可点击格式：[文字](URL)，不要写裸 URL。
 8. 用简体中文写笔记。"
 
-/Applications/cmux.app/Contents/Resources/bin/claude --dangerously-skip-permissions -p "$PROMPT" --model claude-sonnet-4-6 2>&1
+/opt/homebrew/bin/claude --dangerously-skip-permissions -p "$PROMPT" --model claude-sonnet-4-6 2>&1
 
 echo "===== $(date) 搜索完成 ====="
 
