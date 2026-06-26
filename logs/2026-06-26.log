@@ -64,3 +64,74 @@ total size is 0  speedup is 0.00
 其余各人物（Altman、Amodei 兄妹、Brockman、Huang、Zuckerberg、LeCun、Musk、Suleyman、Murati、Sutskever、Pichai）
 6月24–26日均未找到符合条件的新采访内容。
 ===== 手动补充搜索完成 =====
+完成。以下是本次搜索的完整总结：
+
+---
+
+## 2026.6.26 搜索结果
+
+### 新创建笔记 × 1
+
+**文章/2026.6.26-GoogleDeepMind-Hassabis：Cannes主舞台谈AI如何成为创意叙事的协作伙伴.md**
+
+- **来源**：Cannes Lions 2026 主舞台（Palais des Festivals）现场报道，Marketing Edge
+- **活动**：6月24日，Hassabis 与 Bloomberg 记者 Francine Lacqua 和 A24 合伙人 Scott Belsky 的三方对谈
+- **为何新增**：这是独立于已有两篇 Hassabis/Cannes 笔记的**第三场**活动——场地不同（主舞台 vs Google Beach）、对话者不同（Bloomberg/A24 vs Semafor）、URL 不同
+- **核心内容**：AI 民主化创意工具、"创意灵魂仍属于人类"、自然语言多模态协作、SynthID 水印开源给 OpenAI/NVIDIA、AGI 两个缺失拼图（长期规划 + 真正创造力）
+
+### 已有笔记（跳过）
+
+| 内容 | 原因 |
+|---|---|
+| Greg Brockman CNBC Jalapeño 芯片（6/24）| 已有笔记 |
+| Hassabis Semafor 人才竞争文章（6/23）| 已有笔记 |
+| Hassabis Semafor AI艺术与科学分析（6/24）| 已有笔记 |
+
+### 未找到（6/24–26 窗口内）
+
+Altman、Dario/Daniela Amodei、Huang、Zuckerberg、LeCun、Musk、Suleyman、Murati、Sutskever、Pichai 在最近3天内均未发布符合条件的新采访或视频。近期较重量级的内容（Mira Murati Bloomberg、Jensen Huang AP 专访、Yann LeCun CNBC）均发布于6月24日之前，已超出窗口。
+===== Fri Jun 26 10:14:08 CST 2026 搜索完成 =====
+Transfer starting: 8 files
+Skip existing '2026.5.19-Anthropic-Dario与Daniela Amodei上Oprah播客谈对抗五角大楼.md'
+Skip existing '2026.5.27-Google-Demis Hassabis谈AGI将在2030年实现.md'
+Skip existing '2026.5.29-Google-Sundar Pichai接受Decoder播客采访谈AI重塑搜索.md'
+Skip existing '2026.5.6-Anthropic-Dario Amodei与Jamie Dimon对谈AI浪潮.md'
+Skip existing '2026.6.1-OpenAI-Sam Altman接受CNBC专访谈Stargate与AI未来.md'
+Skip existing '2026.6.17-Anthropic-Dario Amodei接受Bloomberg The Circuit深度专访.md'
+Skip existing '2026.6.25-OpenAI-Brockman发布首款自研芯片Jalapeño.md'
+
+sent 730 bytes  received 20 bytes  7500000 bytes/sec
+total size is 8696  speedup is 11.59
+Transfer starting: 30 files
+Skip existing '2026.5.20-Google-Hassabis称人类正站在奇点的山脚.md'
+Skip existing '2026.5.26-Google-Demis Hassabis称我们已接近AGI.md'
+Skip existing '2026.5.26-OpenAI-Sam Altman称AI不会导致就业末日.md'
+Skip existing '2026.5.29-Google-Demis Hassabis谈Isomorphic Labs融资21亿美元要解决所有疾病.md'
+Skip existing '2026.5.5-Anthropic-Dario Amodei警告AI网络安全危险窗口期.md'
+Skip existing '2026.6.1-Anthropic-Daniela Amodei谈离开OpenAI创立Anthropic背后的心路历程.md'
+Skip existing '2026.6.1-Anthropic-Dario Amodei谈Anthropic机密S-1上市申请与营收超越OpenAI.md'
+Skip existing '2026.6.1-Google-Hassabis批评科技裁员热潮邀请被裁工程师加入DeepMind.md'
+Skip existing '2026.6.1-GoogleDeepMind-Hassabis斯坦福演讲警告AI物种级转折点.md'
+Skip existing '2026.6.10-Anthropic-Daniela Amodei为IPO融资辩护营收达470亿.md'
+Skip existing '2026.6.10-Google DeepMind-Hassabis警告AGI或4年内到来.md'
+Skip existing '2026.6.10-OpenAI-Sam Altman反对AI发布前强制审批.md'
+Skip existing '2026.6.13-Anthropic-Dario Amodei警告Mythos威胁安全美政府强制关停模型.md'
+Skip existing '2026.6.15-多公司-AI三巨头聚首G7峰会.md'
+Skip existing '2026.6.16-NVIDIA-Jensen Huang呼吁社会建立AI新规范.md'
+Skip existing '2026.6.17-多公司-G7峰会AI三巨头发言全记录.md'
+Skip existing '2026.6.18-Google-Hassabis谈奇点山脚与AGI转型.md'
+Skip existing '2026.6.18-Meta-LeCun称xAI是失败品并警告AI泡沫.md'
+Skip existing '2026.6.19-OpenAI-Greg Brockman谈计算力制胜.md'
+Skip existing '2026.6.2-Anthropic-Daniela Amodei在Snowflake峰会谈信任是AI加速器.md'
+Skip existing '2026.6.24-GoogleDeepMind-Hassabis：Google仍在AI人才竞争中领先.md'
+Skip existing '2026.6.24-Meta-Zuckerberg：AI眼镜是人人触达"个人超级智能"的入口.md'
+Skip existing '2026.6.25-Google-Hassabis谈AI艺术与科学的内在联系.md'
+Skip existing '2026.6.26-GoogleDeepMind-Hassabis：Cannes主舞台谈AI如何成为创意叙事的协作伙伴.md'
+Skip existing '2026.6.3-OpenAI-Sam Altman访问白宫国会就AI监管政策发声.md'
+Skip existing '2026.6.7-OpenAI-Sam Altman谈日常作息与为人父后的新优先级.md'
+Skip existing '2026.6.8-Anthropic-Dario威权投资者争议.md'
+Skip existing '2026.6.8-Anthropic-Dario文化制胜论.md'
+Skip existing '2026.6.8-OpenAI-Sam Altman发布OpenAI第三阶段计划宣言.md'
+
+sent 2774 bytes  received 20 bytes  27940000 bytes/sec
+total size is 76185  speedup is 27.27
