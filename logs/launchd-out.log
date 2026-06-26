@@ -494,3 +494,50 @@ total size is 0  speedup is 0.00
 /Users/zanghua/ai-news-daily/fetch-ai-news.sh: line 131: /Applications/cmux.app/Contents/Resources/bin/claude: No such file or directory
 ===== Thu Jun 25 13:03:44 CST 2026 开始搜索 AI 资讯 =====
 /Users/zanghua/ai-news-daily/fetch-ai-news.sh: line 131: /Applications/cmux.app/Contents/Resources/bin/claude: No such file or directory
+===== Fri Jun 26 09:19:29 CST 2026 开始搜索 AI 资讯 =====
+已完成全部搜索和笔记创建。以下是本次任务总结：
+
+---
+
+## 本次搜索结果（最近3天：6月23–26日）
+
+### 新创建的笔记
+
+**文章目录 × 2 篇（均为 Demis Hassabis 在戛纳创意节的内容）：**
+
+1. **`2026.6.23-Google-Hassabis称Google仍领先AI人才竞争.md`**
+   Semafor 现场采访，Hassabis 正面回应 Google 人才流失质疑，称 DeepMind 拥有"最大最全的研究团队"，强调数据+TPU+多领域布局的结构优势，并介绍 SynthID 数字水印技术。
+
+2. **`2026.6.24-Google-Hassabis谈AI艺术与AI科学的相通之处.md`**
+   Semafor 分析文章，Hassabis 提出"AI 艺术 vs AI 科学"是假命题，引入"爱因斯坦测试"衡量真正的创造力，并提出"想象力本质上是一种模拟"的核心观点。
+
+---
+
+### 跳过的内容及原因
+
+| 内容 | 原因 |
+|------|------|
+| Greg Brockman CNBC 芯片采访（6/24）| 已有笔记 `2026.6.25-OpenAI-Brockman发布首款自研芯片Jalapeño.md` |
+| Yann LeCun CNBC VivaTech | 6月18日，超出3天窗口 |
+| Jensen Huang AP 采访 | 6月22日，超出窗口 |
+| Mira Murati Bloomberg Tech | 6月4日，超出窗口 |
+| Mustafa Suleyman Semafor | 6月2日，超出窗口 |
+| Dario Amodei Bloomberg | 6月17日，超出窗口 |
+| Sam Altman、Zuckerberg、Musk、Sutskever、Pichai | 最近3天内未找到符合条件的采访内容 |
+
+---
+
+最近3天内 AI 公开采访内容相对较少，Demis Hassabis 因在戛纳创意节连续两天接受采访，是这个时间窗口内最活跃的人物。
+
+Sources:
+- [DeepMind Chief Demis Hassabis says Google's still winning AI talent](https://www.semafor.com/article/06/23/2026/deepmind-chief-demis-hassabis-says-googles-still-winning-ai-talent)
+- [Demis Hassabis on the link between AI for art and AI for science](https://www.semafor.com/article/06/24/2026/demis-hassabis-on-the-link-between-ai-for-art-and-ai-for-science)
+===== Fri Jun 26 09:25:28 CST 2026 搜索完成 =====
+Transfer starting: 0 files
+
+sent 29 bytes  received 20 bytes  490000 bytes/sec
+total size is 0  speedup is 0.00
+Transfer starting: 0 files
+
+sent 29 bytes  received 20 bytes  490000 bytes/sec
+total size is 0  speedup is 0.00
