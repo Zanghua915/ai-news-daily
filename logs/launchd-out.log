@@ -546,3 +546,19 @@ total size is 0  speedup is 0.00
  create mode 100644 logs/.done-2026-06-25
  create mode 100644 logs/2026-06-26.log
 ===== Fri Jun 26 09:25:30 CST 2026 全部完成 =====
+===== Mon Jun 29 09:15:54 CST 2026 开始搜索 AI 资讯 =====
+Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access
+===== Mon Jun 29 13:02:28 CST 2026 开始搜索 AI 资讯 =====
+Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access
+===== Mon Jun 29 19:04:35 CST 2026 开始搜索 AI 资讯 =====
+Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access
+===== Tue Jun 30 09:00:59 CST 2026 开始搜索 AI 资讯 =====
+API Error: Unable to connect to API (ECONNRESET)
+===== Tue Jun 30 13:12:45 CST 2026 开始搜索 AI 资讯 =====
+API Error: Unable to connect to API (ECONNRESET)
+===== Tue Jun 30 19:13:47 CST 2026 开始搜索 AI 资讯 =====
+Request timed out
+===== Wed Jul  1 09:00:00 CST 2026 开始搜索 AI 资讯 =====
+Request timed out
+===== Wed Jul  1 13:00:53 CST 2026 开始搜索 AI 资讯 =====
+API Error: Unable to connect to API (ECONNRESET)
