@@ -30,6 +30,7 @@ REPO_DIR="$HOME/ai-news-daily"
 VAULT_VIDEO="$HOME/Library/Mobile Documents/iCloud~md~obsidian/Documents/ZangHuA/ZangHuA/AI资讯/视频文件"
 VAULT_ARTICLE="$HOME/Library/Mobile Documents/iCloud~md~obsidian/Documents/ZangHuA/ZangHuA/AI资讯/文章"
 CODEX_BIN="${CODEX_BIN:-/Applications/Codex.app/Contents/Resources/codex}"
+CODEX_TIMEOUT_SECONDS="${CODEX_TIMEOUT_SECONDS:-3600}"
 
 if [[ ! -x "$CODEX_BIN" ]]; then
     CODEX_BIN="$(command -v codex || true)"
@@ -39,6 +40,34 @@ if [[ -z "${CODEX_BIN:-}" || ! -x "$CODEX_BIN" ]]; then
     echo "找不到可执行的 codex CLI。请确认 Codex.app 已安装，或设置 CODEX_BIN=/path/to/codex。"
     exit 1
 fi
+
+run_with_timeout() {
+    local timeout_seconds="$1"
+    shift
+
+    "$@" &
+    local child_pid=$!
+    local start_ts
+    start_ts=$(date +%s)
+
+    while kill -0 "$child_pid" 2>/dev/null; do
+        local now_ts
+        now_ts=$(date +%s)
+        if (( now_ts - start_ts >= timeout_seconds )); then
+            echo "Codex 运行超过 ${timeout_seconds} 秒仍未完成，终止本次任务，等待下个触发点重试。"
+            pkill -TERM -P "$child_pid" 2>/dev/null || true
+            kill -TERM "$child_pid" 2>/dev/null || true
+            sleep 5
+            pkill -KILL -P "$child_pid" 2>/dev/null || true
+            kill -KILL "$child_pid" 2>/dev/null || true
+            wait "$child_pid" 2>/dev/null || true
+            return 124
+        fi
+        sleep 10
+    done
+
+    wait "$child_pid"
+}
 
 TODAY=$(date +%Y.%-m.%-d)
 YEAR=$(date +%Y)
@@ -150,14 +179,14 @@ PROMPT=$(cat <<EOF
 EOF
 )
 
-"$CODEX_BIN" --search exec \
+run_with_timeout "$CODEX_TIMEOUT_SECONDS" "$CODEX_BIN" --search exec \
     --dangerously-bypass-approvals-and-sandbox \
     --skip-git-repo-check \
     -C "$REPO_DIR" \
     --add-dir "$VAULT_VIDEO" \
     --add-dir "$VAULT_ARTICLE" \
     --color never \
-    "$PROMPT" 2>&1
+    "$PROMPT" </dev/null 2>&1
 
 echo "===== $(date) 搜索完成 ====="
 

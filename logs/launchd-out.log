@@ -562,3 +562,146 @@ Request timed out
 Request timed out
 ===== Wed Jul  1 13:00:53 CST 2026 开始搜索 AI 资讯 =====
 API Error: Unable to connect to API (ECONNRESET)
+===== Thu Jul  2 09:00:04 CST 2026 开始搜索 AI 资讯 =====
+Reading additional input from stdin...
+OpenAI Codex v0.142.5
+--------
+workdir: /Users/zanghua/ai-news-daily
+model: gpt-5.5
+provider: openai
+approval: never
+sandbox: danger-full-access
+reasoning effort: high
+reasoning summaries: none
+session id: 019f2057-18af-78b0-9239-1e53ce400237
+--------
+user
+你是麦田的 AI 资讯助理。请完成以下任务。
+
+重要执行方式：
+- 你现在运行在 Codex CLI 里，不是 Claude CLI。
+- 需要联网时，使用 Codex 的联网搜索能力。
+- 需要读取网页时，打开真实网页并基于网页内容总结；不要编造链接或内容。
+- 需要查重时，用 shell 命令优先使用 rg，在两个 Obsidian 目录里搜索 URL 的辨识度片段。
+- 需要创建笔记时，直接在下面指定的 Obsidian 目录创建 Markdown 文件。
+- 如果没有新内容，不要创建空文件，直接在最终输出里说明没有发现可收录的新内容。
+
+## 任务
+搜索下面这些 AI 公司核心负责人 / 关键人物最近 3 天内的最新采访视频和文章。
+
+重点关注这些人物：
+- Anthropic：Dario Amodei、Daniela Amodei
+- OpenAI：Sam Altman、Greg Brockman
+- Google / DeepMind：Demis Hassabis、Sundar Pichai
+- NVIDIA：Jensen Huang（黄仁勋）
+- Meta：Mark Zuckerberg、Yann LeCun
+- xAI：Elon Musk
+- Microsoft AI：Mustafa Suleyman
+- Thinking Machines Lab：Mira Murati
+- SSI（Safe Superintelligence）：Ilya Sutskever
+
+## 搜索方法
+英文搜索效果更好，关键词用「人名 + interview/podcast/talk + 2026」的组合，例如：
+- \"Dario Amodei interview 2026\"
+- \"Sam Altman podcast 2026\"
+- \"Jensen Huang AI interview 2026\"
+- \"Mira Murati interview 2026\"
+- 上面列出的每个人物都搜一搜，并加上 video / podcast / talk / keynote 等变体。
+
+### 优先关注的优质来源（这些平台经常出高质量的 AI 大佬深度访谈）
+- 播客类：Lex Fridman、Dwarkesh Patel、Decoder with Nilay Patel、Hard Fork、No Priors、a16z Podcast、Big Technology、20VC、All-In、BG2 Pod
+- 媒体类：The Verge、TechCrunch、Wired、Bloomberg、The Information、Time、Fortune、Financial Times、纽约时报
+- 视频 / 大会：YouTube，以及各家发布会和大会主题演讲（如 NVIDIA GTC、Google I/O、OpenAI DevDay）
+- 搜索时可以把来源名也当关键词，比如 \"Demis Hassabis Lex Fridman\"、\"Sam Altman The Verge\"。
+
+## 输出要求
+对每条有价值的新内容，在对应目录创建一个 Markdown 笔记：
+- 视频 → /Users/zanghua/Library/Mobile Documents/iCloud~md~obsidian/Documents/ZangHuA/ZangHuA/AI资讯/视频文件/
+- 文章 → /Users/zanghua/Library/Mobile Documents/iCloud~md~obsidian/Documents/ZangHuA/ZangHuA/AI资讯/文章/
+
+文件名格式：2026.7.2-{公司}-{简短标题}.md
+
+### 视频笔记模板
+```markdown
+# 2026.7.2 - {公司} - {标题}
+
+## 基本信息
+
+- **人物**：{姓名}（{职位}）
+- **日期**：{发布日期}
+- **来源**：{媒体/频道名}
+- **类型**：{播客/视频采访/演讲}
+
+## 链接
+
+- [{平台名}]({URL})
+
+## 核心话题
+
+- {话题1}
+- {话题2}
+- {话题3}
+
+#AI资讯 #{公司} #{人物姓} #{关键主题标签}
+```
+
+### 文章笔记模板
+```markdown
+# 2026.7.2 - {公司} - {标题}
+
+## 基本信息
+
+- **人物**：{姓名}（{职位}）
+- **日期**：{发布日期}
+- **来源**：{媒体/频道名}
+- **类型**：文章采访
+
+## 链接
+
+- [{媒体名}]({URL})
+
+## 内容总结
+
+{读取原文后，用简体中文写一份完整总结。
+总结要覆盖采访的主要内容：谈了哪些话题、说了什么观点、有什么重要信息或金句。
+目标是让人读完总结就大致知道这篇采访聊了什么，不需要再点进原文。
+长度不限，以能清楚描述采访内容为准，自然段落，不要只列bullet点。}
+
+#AI资讯 #{公司} #{人物姓} #{关键主题标签}
+```
+
+## 重要规则
+1. **内容必须跟 AI 实质相关**：只收录主要在谈人工智能、谈所在公司的 AI 产品/战略、或谈 AI 对行业和社会影响的内容。如果只是这个人物露了个面、但讲的东西跟 AI 关系不大（比如普通的大学毕业典礼演讲、跟 AI 无关的商业或个人话题），一律不要收录。
+2. 只收录最近 3 天内发布的内容，跳过更早的。
+3. **严格查重，绝不重复收录同一个采访**：每个采访的原文链接 URL 是它唯一的身份证——标题和日期会变，URL 不会变。在创建任何一篇新笔记之前，必须先用 rg 在两个笔记目录（/Users/zanghua/Library/Mobile Documents/iCloud~md~obsidian/Documents/ZangHuA/ZangHuA/AI资讯/视频文件 和 /Users/zanghua/Library/Mobile Documents/iCloud~md~obsidian/Documents/ZangHuA/ZangHuA/AI资讯/文章）里搜索这条内容的来源 URL（可只搜 URL 里最有辨识度的一段，比如文章链接里的路径/slug）。只要已有任意一篇笔记包含相同的 URL，就说明这条采访之前已经收录过——哪怕它之前用的文件名、标题、日期写法不一样——也要直接跳过、绝不再写一份。判断是否重复一律以 URL 为准，不要只看标题像不像。
+4. 如果搜不到新内容，就不创建文件，直接说明即可。
+5. 每条笔记的链接必须是真实可访问的 URL，不要编造。
+6. 文章笔记必须先读取原文，再写总结；视频笔记列核心话题即可（无法抓取视频内容）。
+7. 链接格式必须是 Markdown 可点击格式：[文字](URL)，不要写裸 URL。
+8. 用简体中文写笔记。
+codex
+我会先按人物和来源做近 3 天英文搜索，打开候选网页核对发布日期与内容；确认是 AI 相关且未在两个 Obsidian 目录出现过 URL 后，再写入对应 Markdown。
+web search: 
+ERROR: Reconnecting... 2/5
+web search: 
+ERROR: Reconnecting... 3/5
+web search: 
+web search: Dario Amodei interview 2026 AI June 30 2026 OR July 2026
+web search: 
+ERROR: Reconnecting... 4/5
+2026-07-02T01:11:54.816889Z ERROR codex_api::endpoint::responses_websocket: failed to connect to websocket: HTTP error: 502 Bad Gateway, url: wss://chatgpt.com/backend-api/codex/responses
+ERROR: Reconnecting... 5/5
+web search: 
+web search: Demis Hassabis interview podcast AI July 2026
+web search: 
+web search: Yann LeCun interview AI July 2026 podcast
+web search: 
+web search: Ilya Sutskever interview Safe Superintelligence July 2026 AI
+web search: 
+web search: site:youtube.com Sam Altman AI interview podcast "2026" "Jul"
+web search: 
+web search: "interview" "Dario Amodei" AI
+web search: 
+web search: https://www.gsb.stanford.edu/insights/daniela-amodei-says-curiosity-underrated
+web search: 
+/Users/zanghua/ai-news-daily/fetch-ai-news.sh: line 24: 40924 Terminated: 15          "$CODEX_BIN" --search exec --dangerously-bypass-approvals-and-sandbox --skip-git-repo-check -C "$REPO_DIR" --add-dir "$VAULT_VIDEO" --add-dir "$VAULT_ARTICLE" --color never "$PROMPT" 2>&1
